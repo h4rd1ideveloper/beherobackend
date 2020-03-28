@@ -5,8 +5,8 @@ module.exports = {
     async create(req, res) {
         const { id } = req.body;
         if (!
-            (ong = await connection('ongs')
-                .where('id', id)
+            (ong = await connection('ongs')//
+                .where('id', id)//
                 .select('name')
                 .first()
             )) {
