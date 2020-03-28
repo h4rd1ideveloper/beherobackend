@@ -2,9 +2,9 @@
   "name": "behero",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
